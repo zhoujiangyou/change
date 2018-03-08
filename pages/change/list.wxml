@@ -1,0 +1,192 @@
+<!--pages/change/list.wxml-->
+<view class='main_contain'>
+
+<view class='top_bar top_bar_flex'>
+<scroll-view class="scroll_view_H " scroll-with-animation='true' scroll-x >
+    <view  class="scroll_view_item scroll_view_item_style">朋友圈</view>
+    <view  class="scroll_view_item scroll_view_item_style">推荐</view>
+    <view  class="scroll_view_item scroll_view_item_style">化妆</view>
+    <view  class="scroll_view_item scroll_view_item_style">减肥</view>
+    <view  class="scroll_view_item scroll_view_item_style">明星</view>
+    <view  class="scroll_view_item scroll_view_item_style">娱乐</view>
+    <view  class="scroll_view_item scroll_view_item_style">动漫</view>
+    <view  class="scroll_view_item scroll_view_item_style">城市</view>
+</scroll-view>
+<view class='top_bar_all'><view class='top_bar_allimg'></view></view>
+</view>
+<view class='top_and_contain'></view>
+<view class="contain">
+<scroll-view class='change_list'  scroll-y  bindscrolltoupper="upper" bindscrolltolower="" bindscroll=""  scroll-top="">
+    <view  class="change_list_item">
+      <view  class="cli_hang1">
+        <view  class='cli_avatar'></view>
+        <view  class='cli_name'>name</view>
+        <view  class='cli_time'>一小时之前</view> 
+      </view>
+      <view  class="cli_hang2">
+      <image lazy-load mode='aspectFit' class="cli_img" src="https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/0.jpg?t=2018228"></image>
+      <image lazy-load mode='aspectFit' class="cli_img" src="https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/0.jpg?t=2018228"></image>
+      </view>
+      <view class='cli_hang3'>
+      <view>之前</view>
+      <view>之后</view>
+      </view>
+      <view class='cli_hang4'>
+      <text>多花几分钟画个妆，你就会发现世界上其实没有丑女人，只有不会花时间装扮的懒女人</text>
+      </view>
+      <view class='cli_hang5'>
+        <view class='cli_more'>....</view>
+        <view class='cli_zan_share'>
+          <view class='image_share'></view>
+          <view class='image_zan'></view>
+          <text>1500</text>
+        </view>
+      </view>
+    </view>
+      <view  class="change_list_item">
+      <view  class="cli_hang1">
+        <view  class='cli_avatar'></view>
+        <view  class='cli_name'>name</view>
+        <view  class='cli_time'>一小时之前</view> 
+      </view>
+      <view  class="cli_hang2">
+      <image lazy-load mode='aspectFit' class="cli_img" src="https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/0.jpg?t=2018228"></image>
+      <image lazy-load mode='aspectFit' class="cli_img" src="https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/0.jpg?t=2018228"></image>
+      </view>
+      <view class='cli_hang3'>
+      <view>之前</view>
+      <view>之后</view>
+      </view>
+      <view class='cli_hang4'>
+      <text>多花几分钟画个妆，你就会发现世界上其实没有丑女人，只有不会花时间装扮的懒女人</text>
+      </view>
+      <view class='cli_hang5'>
+        <view class='cli_more'>....</view>
+        <view class='cli_zan_share'>
+          <view class='image_share'></view>
+          <view class='image_zan'></view>
+          <text>1500</text>
+        </view>
+      </view>
+    </view>
+       <view  class="change_list_item">
+      <view  class="cli_hang1">
+        <view  class='cli_avatar'></view>
+        <view  class='cli_name'>name</view>
+        <view  class='cli_time'>一小时之前</view> 
+      </view>
+      <view  class="cli_hang2">
+      <image lazy-load mode='aspectFit' class="cli_img" src="https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/0.jpg?t=2018228"></image>
+      <image lazy-load mode='aspectFit' class="cli_img" src="https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/0.jpg?t=2018228"></image>
+      </view>
+      <view class='cli_hang3'>
+      <view>之前</view>
+      <view>之后</view>
+      </view>
+      <view class='cli_hang4'>
+      <text>多花几分钟画个妆，你就会发现世界上其实没有丑女人，只有不会花时间装扮的懒女人</text>
+      </view>
+      <view class='cli_hang5'>
+        <view class='cli_more'>....</view>
+        <view class='cli_zan_share'>
+          <view class='image_share'></view>
+          <view class='image_zan'></view>
+          <text>1500</text>
+        </view>
+      </view>
+    </view>
+       <view  class="change_list_item">
+      <view  class="cli_hang1">
+        <view  class='cli_avatar'></view>
+        <view  class='cli_name'>name</view>
+        <view  class='cli_time'>一小时之前</view> 
+      </view>
+      <view  class="cli_hang2">
+      <image lazy-load mode='aspectFit' class="cli_img" src="https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/0.jpg?t=2018228"></image>
+      <image lazy-load mode='aspectFit' class="cli_img" src="https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/0.jpg?t=2018228"></image>
+      </view>
+      <view class='cli_hang3'>
+      <view>之前</view>
+      <view>之后</view>
+      </view>
+      <view class='cli_hang4'>
+      <text>多花几分钟画个妆，你就会发现世界上其实没有丑女人，只有不会花时间装扮的懒女人</text>
+      </view>
+      <view class='cli_hang5'>
+        <view class='cli_more'>....</view>
+        <view class='cli_zan_share'>
+          <view class='image_share'></view>
+          <view class='image_zan'></view>
+          <text>1500</text>
+        </view>
+      </view>
+    </view>
+       <view  class="change_list_item">
+      <view  class="cli_hang1">
+        <view  class='cli_avatar'></view>
+        <view  class='cli_name'>name</view>
+        <view  class='cli_time'>一小时之前</view> 
+      </view>
+      <view  class="cli_hang2">
+      <image lazy-load mode='aspectFit' class="cli_img" src="https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/0.jpg?t=2018228"></image>
+      <image lazy-load mode='aspectFit' class="cli_img" src="https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/0.jpg?t=2018228"></image>
+      </view>
+      <view class='cli_hang3'>
+      <view>之前</view>
+      <view>之后</view>
+      </view>
+      <view class='cli_hang4'>
+      <text>多花几分钟画个妆，你就会发现世界上其实没有丑女人，只有不会花时间装扮的懒女人</text>
+      </view>
+      <view class='cli_hang5'>
+        <view class='cli_more'>....</view>
+        <view class='cli_zan_share'>
+          <view class='image_share'></view>
+          <view class='image_zan'></view>
+          <text>1500</text>
+        </view>
+      </view>
+    </view>
+       <view  class="change_list_item">
+      <view  class="cli_hang1">
+        <view  class='cli_avatar'></view>
+        <view  class='cli_name'>name</view>
+        <view  class='cli_time'>一小时之前</view> 
+      </view>
+      <view  class="cli_hang2">
+      <image lazy-load mode='aspectFit' class="cli_img" src="https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/0.jpg?t=2018228"></image>
+      <image lazy-load mode='aspectFit' class="cli_img" src="https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/0.jpg?t=2018228"></image>
+      </view>
+      <view class='cli_hang3'>
+      <view>之前</view>
+      <view>之后</view>
+      </view>
+      <view class='cli_hang4'>
+      <text>多花几分钟画个妆，你就会发现世界上其实没有丑女人，只有不会花时间装扮的懒女人</text>
+      </view>
+      <view class='cli_hang5'>
+        <view class='cli_more'>....</view>
+        <view class='cli_zan_share'>
+          <view class='image_share'></view>
+          <view class='image_zan'></view>
+          <text>1500</text>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>
+
+<view class="bottom_bar">
+  <view class='bottom_bar_item_1'>
+   <view class='bottom_bar1_img'></view>
+   <navigator url="/pages/find/index" >find</navigator>
+   </view>
+  <view class='bottom_bar_item_2'>
+  <view class='bottom_bar2_img'></view>
+  </view>
+  <view class='bottom_bar_item_3'>
+  <view class='bottom_bar3_img'></view>
+  <navigator  url="/pages/ucenter/index">me</navigator>
+  </view>
+</view>
+</view>
