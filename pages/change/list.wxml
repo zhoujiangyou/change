@@ -177,16 +177,16 @@
 </view>
 
 <view class="bottom_bar">
-  <view class='bottom_bar_item_1'>
+  <view class="bottom_bar_item_1" bindtap="navigateToFind">
    <view class='bottom_bar1_img'></view>
    <navigator url="/pages/find/index" >find</navigator>
    </view>
-  <view class='bottom_bar_item_2'>
+  <view class='bottom_bar_item_2' bindtap="navigateToPost">
   <view class='bottom_bar2_img'></view>
   </view>
-  <view class='bottom_bar_item_3'>
+  <view class='bottom_bar_item_3' bindtap="navigateToMe">
   <view class='bottom_bar3_img'></view>
-  <navigator  url="/pages/ucenter/index">me</navigator>
+  <navigator  url="/pages/ucenter/index" >me</navigator>
   </view>
 </view>
 </view>

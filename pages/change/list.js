@@ -11,7 +11,7 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad: function (options) {    
     
   },
 
@@ -68,5 +68,20 @@ Page({
   },
   lower:function(){
     console.log('in ths bottom');
+  },
+  navigateToFind:function(){
+    wx.navigateTo({
+      url: '../find/index'
+    })
+  },
+  navigateToMe: function () {
+    wx.navigateTo({
+      url: '../ucenter/index'
+    })
+  },
+  navigateToPost: function () {
+    wx.navigateTo({
+      url: '../post/index'
+    })
   }
 })

@@ -1,2 +1,96 @@
 <!--pages/find/index.wxml-->
-<text>find changes view</text>
+<view class='find_main_content'> 
+
+<view class='find_search'>
+  <icon type="search" color='orange' size="20"/>
+  <input placeholder='search' placeholder-class='find_search_pd'></input>
+</view>
+
+<view class='find_tags'>
+  <view class='tag_items'>
+    <view class='find_main_tag'>
+     <label>main_tag</label>
+     <view class='tags_delete'></view>
+    </view>
+      <view class='find_main_tag_content'>
+        <label class="find_tags_d"><text>make up</text></label>
+        <label class="find_tags_d"><text>Photoshop make up</text></label>
+        <label class="find_tags_d"><text>hair cut</text></label>
+        <label class="find_tags_d"><text>dress up</text></label>
+        <label class="find_tags_d"><text>hair cut</text></label>
+        <label class="find_tags_d"><text>dress up</text></label>
+        <label class="find_tags_d"><text>hair cut</text></label>
+        <label class="find_tags_d"><text>grow up</text></label>
+      </view>
+  </view>
+  <view class='tag_items'>
+    <view class='find_main_tag'>
+     <label>main_tag</label>
+     <view class='tags_delete'></view>
+    </view>
+    <view class='find_main_tag_content'>
+      <label class="find_tags_d"><text>make up</text></label>
+      <label class="find_tags_d"><text>Photoshop make up</text></label>
+      <label class="find_tags_d"><text>hair cut</text></label>
+      <label class="find_tags_d"><text>dress up</text></label>
+      <label class="find_tags_d"><text>hair cut</text></label>
+      <label class="find_tags_d"><text>dress up</text></label>
+      <label class="find_tags_d"><text>hair cut</text></label>
+      <label class="find_tags_d"><text>grow up</text></label>
+    </view>
+  </view>
+    <view class='tag_items'>
+    <view class='find_main_tag'>
+     <label>main_tag</label>
+     <view class='tags_delete'></view>
+    </view>
+    <view class='find_main_tag_content'>
+      <label class="find_tags_d"><text>make up</text></label>
+      <label class="find_tags_d"><text>Photoshop make up</text></label>
+      <label class="find_tags_d"><text>hair cut</text></label>
+      <label class="find_tags_d"><text>dress up</text></label>
+      <label class="find_tags_d"><text>hair cut</text></label>
+      <label class="find_tags_d"><text>dress up</text></label>
+      <label class="find_tags_d"><text>hair cut</text></label>
+      <label class="find_tags_d"><text>grow up</text></label>
+    </view>
+  </view>
+    <view class='tag_items'>
+    <view class='find_main_tag'>
+     <label>main_tag</label>
+     <view class='tags_delete'></view>
+    </view>
+    <view class='find_main_tag_content'>
+      <label class="find_tags_d"><text>make up</text></label>
+      <label class="find_tags_d"><text>Photoshop make up</text></label>
+      <label class="find_tags_d"><text>hair cut</text></label>
+      <label class="find_tags_d"><text>dress up</text></label>
+      <label class="find_tags_d"><text>hair cut</text></label>
+      <label class="find_tags_d"><text>dress up</text></label>
+      <label class="find_tags_d"><text>hair cut</text></label>
+      <label class="find_tags_d"><text>grow up</text></label>
+    </view>
+  </view>
+    <view class='tag_items'>
+    <view class='find_main_tag'>
+     <label>main_tag</label>
+     <view class='tags_delete'></view>
+    </view>
+    <view class='find_main_tag_content'>
+      <label class="find_tags_d"><text>make up</text></label>
+      <label class="find_tags_d"><text>Photoshop make up</text></label>
+      <label class="find_tags_d"><text>hair cut</text></label>
+      <label class="find_tags_d"><text>dress up</text></label>
+      <label class="find_tags_d"><text>hair cut</text></label>
+      <label class="find_tags_d"><text>dress up</text></label>
+      <label class="find_tags_d"><text>hair cut</text></label>
+      <label class="find_tags_d"><text>grow up</text></label>
+    </view>
+  </view>
+</view>
+
+<view class='load_more'>
+  <text>load more</text>
+  <icon type='download' size='20'></icon>
+</view>
+</view>

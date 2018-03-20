@@ -1,1 +1,77 @@
 /* pages/find/index.wxss */
+.find_main_content{
+  width: 100%;
+  height: 100%;
+}
+.find_search{
+  width: 90%;
+  height: 5%;
+  line-height: 5%;
+  margin: 0 auto;
+}
+.find_search_pd{
+	font-family: PingFang-SC-Medium;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #c4cacd;
+}
+.find_search input{
+   display: inline-block;
+   margin-left: 10px;
+}
+.find_tags{
+  width: 90%;
+  height: 87%;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding-bottom: 10%;
+}
+.find_tags .find_main_tag{
+  font-family: PingFang-SC-Bold;
+	font-size: 1rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #3b3e40;
+  padding-bottom: 2%;
+  width: 25%;
+}
+.tags_delete{
+  border-top: solid 1px red;
+  width:100%;
+  margin-top:-14%;
+  padding-bottom:15%;
+}
+.find_main_tag_content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.find_tags_d{
+	background-color: rgb(241,245,247);
+	border-radius: 8px;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  height: 30px;
+  padding: 2px 9px;
+}
+.find_tags_d text{
+  font-family: PingFang-SC-Bold;
+	font-size: 0.9rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: rgb(82,87,89);
+}
+.load_more{
+  width: 100%;
+  height: 8%;
+  text-align: center;
+  color: rgb(255,152,58); 
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+}
